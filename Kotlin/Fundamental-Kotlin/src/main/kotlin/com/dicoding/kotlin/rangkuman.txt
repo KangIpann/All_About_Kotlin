@@ -1,0 +1,52 @@
+Sama seperti bahasa pemrograman lain, Kotlin memiliki fungsi untuk mencetak nilai pada console yaitu fungsi print() dan println().
+Untuk mendeklarasi variable, Anda akan menggunakan kata kunci var atau val. var atau val digunakan untuk mengontrol nilai dari sebuah variabel. Dengan kata kunci var kita bisa mengubah nilai yang sudah kita inisialisasikan.
+Untuk membuat variable yang menampung data berupa text, Anda dapat menggunakan tipe data Char untuk menyimpan satu karakter dan tipe data String untuk menyimpan beberapa karakter.
+Sedangkan untuk menampung data berupa number, Anda akan menggunakan beberapa tipe data di bawah ini:
+Int (32 Bit)
+Int adalah tipe data yang umumnya digunakan untuk menyimpan nilai numerik. Int dapat menyimpan data dari range -2^31 sampai +2^31-1. Dengan ukuran 32 Bit kita bisa menggunakannya untuk menyimpan nilai yang besar. Catatannya, tetap lihatlah batasan nilai maksimal yang dapat dimasukkan.
+
+Long (64 Bit)
+Long adalah tipe data yang digunakan untuk menyimpan nilai numerik yang lebih besar yaitu dari range -2^63 sampai +2^63-1.
+
+Short (16 Bit)
+Short merupakan sebuah bilangan bulat yang hanya dapat menyimpan nilai yang kecil karena hanya berukuran 16 Bit.
+
+Byte (8 Bit)
+Dengan ukuran yang kecil, Byte hanya mampu menyimpan nilai yang kecil sama halnya seperti Short. Byte biasa digunakan untuk keperluan proses membaca dan menulis data dari sebuah stream file atau jaringan.
+
+Double (64 Bit)
+Sama halnya dengan Long yang memiliki ukuran yang besar, Double mampu menyimpan nilai numerik yang besar pula. Pada umumnya Double digunakan untuk menyimpan nilai numerik pecahan.
+
+Float (32 Bit)
+Sama seperti Double, namun memiliki ukuran yang lebih kecil, yakni hanya sampai 6-7 angka di belakang koma.
+
+Selanjutnya adalah Array, yakni tipe data yang memungkinkan Anda untuk menyimpan beberapa objek di dalam satu variabel.
+Kotlin juga memungkinkan Anda untuk membuat Array dengan tipe data primitif dengan memanfaatkan beberapa fungsi spesifik seperti berikut:
+intArrayOf() : IntArray
+
+booleanArrayOf() : BooleanArray
+
+charArrayOf() : CharArray
+
+longArrayOf() : LongArray
+
+shortArrayOf() : ShortArray
+
+byteArrayOf() : ByteArray
+
+Kotlin mendukung juga tipe data Boolean di mana tipe data yang hanya memiliki dua nilai, yaitu true dan false. Selain itu, Terdapat 3 (tiga) operator yang dapat digunakan pada Boolean:
+Conjunction atau AND (&&)
+Operator AND (&&) akan mengembalikan nilai true jika semua hasil evaluasi expression yang diberikan bernilai true.
+
+Disjunction atau OR (||)
+Berbeda dengan operator AND (&&), operator OR (||) akan mengembalikan nilai true jika hasil evaluasi dari salah satu expressions yang diberikan bernilai true.
+
+Negation atau NOT (!)
+Berbeda dengan operator AND (&&) dan operator OR(||), operator NOT(!) digunakan untuk melakukan negasi pada hasil evaluasi expression yang diberikan.
+
+Jika ingin menginisialisasi nilai dari sebuah variabel berdasarkan suatu kondisi. Untuk menyelesaikannya, gunakan If Expression.
+Dengan Kotlin kita mudah dalam mengelola variable nullable sehingga dapat meminimalisir terjadinya NullPointerException dengan menggunakan Safe Call dan Elvis Operator.
+Function atau fungsi merupakan sebuah prosedur yang memiliki keterkaitan dengan pesan dan objek. Ketika kita memanggil sebuah fungsi maka sebuah mini-program akan dijalankan. Fungsi sendiri bisa diartikan sebagai cara sederhana untuk mengatur program buatan kita.
+
+
+Kita sudah selesai dengan Kotlin Fundamental di mana Anda sudah mempelajari tentang bagaimana menampilkan pesan pada konsol, berbagai macam tipe data, dan bagaimana cara meminimalisir terjadinya NullPointerException. Selanjutnya kita akan mempelajari sub-modul Control Flow. Tetap semangat ya!

@@ -1,0 +1,26 @@
+Rangkuman dari Control Flow
+Sudah bisa menentukan alur program yang akan dikembangkan? Yuk kita ulas lagi apa yang sudah kita pelajari pada sub-modul Control Flow:
+
+Untuk menghindari penggunaan konstan yang keliru, kita bisa memanfaatkan fitur Enumeration untuk menyimpan kumpulan objek yang telah didefinisikan menjadi tipe data konstanta.
+
+Jika memiliki beberapa ekspresi untuk menentukan hasil evaluasi, Anda bisa menggunakan when expression. Karena sebuah expression, when dapat mengembalikan nilai yang dapat ditampung pada sebuah variabel.
+
+Sama seperti when, if expression dapat mengembalikkan nilai yang dapat ditampung pada sebuah variabel. Namun sedikit berbeda dengan when, if lebih cocok digunakan jika ekspresi yang akan digunakan untuk dievaluasi hanya 1 (satu).
+
+Dalam mempelajari bahasa pemgrograman, Anda akan sering menjumpai istilah expressions dan statement.
+
+Jika ingin melakukan perulangan, ada beberapa cara yang dapat diterapkan yaitu:
+
+While
+While bersifat Entry Controlled Loop. Artinya, kondisi yang diberikan akan dievaluasi terlebih dahulu. Jika kondisi tersebut terpenuhi maka proses perulangan akan dijalankan.
+
+Do While
+Do While bersifat Exit Controlled Loop di mana proses perulangan akan langsung dijalankan di awal. Jika telah selesai, barulah kondisi yang diberikan akan dievaluasi.
+
+For Loop
+For merupakan konsep perulangan pada blok yang sama selama hasil evaluasi kondisi yang diberikan terpenuhi atau bernilai true. For memanfaatkan tipe data Range untuk menentukan kondisi yang akan dievaluasi.
+
+Saat menggunakan While dan Do While perhatikan infinite loop, yaitu kondisi di mana proses perulangan berlangsung terus menerus sampai aplikasi menjadi crash.
+
+Saat menerapkan perulangan, kita bisa memanfaatkan kata kunci break dan continue. Kedua kata kunci tersebut digunakan untuk menentukan proses perulangan akan seperti apa di mana break digunakan untuk menghentikan proses perulangan walaupun hasil evaluasi masih menghasil true dan continue digunakan untuk melanjutkan proses perulangan selanjutnya.
+
