@@ -14,4 +14,12 @@ fun main(){
     } else if (open > hours || closed < hours){
         println("Coffeshop is closed!")
     }
+//    val nilaiHakim = 10
+//    if (nilaiHakim >= 80){
+//        println("Beliau ini bagus")
+//    }else if (nilaiHakim > 60){
+//        println("Sipaling")
+//    }else{
+//    println("Waduh")
+//    }
 }

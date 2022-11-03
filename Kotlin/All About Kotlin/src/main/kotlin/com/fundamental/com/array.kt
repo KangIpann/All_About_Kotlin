@@ -17,7 +17,7 @@ fun main(){
 //
 //byteArrayOf() : ByteArray
     val intArray = intArrayOf(1,23,3)
-    println("Array index ke 3 dari IntArray adalah" + intArray[2])
+    println("Array index ke 3 dari IntArray adalah " + intArray[2])
 //    notes: Indexing dimulai dari nol 0
 //    kita juga bisa mengubahnya
     intArray[2] = 4
@@ -27,6 +27,9 @@ fun main(){
     print(intArrayBaru[0])
     print(intArrayBaru[1])
     print(intArrayBaru[2])
-    print(intArrayBaru[3])
+    println(intArrayBaru[3])
+    for (i in intArrayBaru){
+        println(i)
+    }
 
 }

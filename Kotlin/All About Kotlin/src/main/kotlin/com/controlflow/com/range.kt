@@ -17,5 +17,7 @@ fun main(){
     }
 // Char Range
     val rangeChar = 'A'.rangeTo('F')
-
+    rangeChar.forEach{
+        print(" $it")
+    }
 }
